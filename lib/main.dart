@@ -25,18 +25,27 @@ class MyApp extends StatelessWidget {
         width: double.infinity,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          
           children: [
             Container(
               height: 100,
               width: 100,
               color: Colors.yellow,
             ),
+            SizedBox(
+              height: 20,
+              
+            ),
+
             Container(
               height: 100,
               width: 100,
               color: Colors.red,
             ),
+            SizedBox(
+              height: 20,
+            ),
+
             Container(
               height: 100,
               width: 100,
