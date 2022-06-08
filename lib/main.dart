@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
       body: Container(
        // color: Colors.grey,
         width: double.infinity,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           
           children: [
             Container(
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
               color: Colors.yellow,
             ),
             SizedBox(
-              height: 20,
+              width: 20,
               
             ),
 
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
               color: Colors.red,
             ),
             SizedBox(
-              height: 20,
+              width: 20,
             ),
 
             Container(
