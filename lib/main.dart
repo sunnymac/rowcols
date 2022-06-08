@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         
       ),
       body: Container(
-        //color: Colors.amber,
+      //  color: Colors.amber,
         height: 100,
         child: Padding(
           padding: const EdgeInsets.only(top: 10 ),
@@ -32,20 +32,23 @@ class MyApp extends StatelessWidget {
               Container(
                 height: 100,
                 width: 100,
+                
                 child: Image.network("https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=428&q=80",
                 fit: BoxFit.fill,
                 ),
               ),
 
               Padding(
-                padding: const EdgeInsets.only(  left:   16.0),
+                padding: const EdgeInsets.only(left: 18),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text("Pizza Abc",
                     style: TextStyle(
                       fontSize: 20,
-                      fontWeight: FontWeight.bold
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 2
+                      
                     ),),
                     Text("Price 10",
                     style: TextStyle(
